@@ -7,16 +7,14 @@
 
 .thin-bordered{
 	background-color: #EEE;
-	border-right-width: 2px;
-	border-bottom-width: 2px;
+	border-width: 2px;
 	padding: 2px;
 }
 
 .corner{
 	display: inline-block;
-	border-top-width: 0px;
-	border-left-width: 0px;
 	margin-bottom: 5px;
+	margin-left: 10px;
 }
 
 .light-grey{
@@ -29,7 +27,6 @@
 
 .button{
 	display: flex;
-	font-size: 24px;
 	margin-left: 10px;
 	margin-right: 10px;
 	justify-content: center;
@@ -42,10 +39,20 @@
 
 #clear-button{
 	background-color: rgb(50, 100, 165);
-	font-size: 30px;
 	text-align: center;
 }
 
 body{
 	background-color: #222;
+	font-size: 3.2em;
+}
+
+@media all and (max-width: 1000px){
+	.button{
+		height: 100px;
+	}
+
+	#clear-button{
+		height: 100px;
+	}
 }
