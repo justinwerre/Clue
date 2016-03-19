@@ -6,40 +6,46 @@
 		<script type="text/javascript" src="clue.js"></script>
 		<meta charset="utf-8" />
 	</head>
+
 	<body>
-		<div class="bordered light-grey">
-			<span class="corner">Suspects:</span>
-				<div class="button thin-bordered">Miss Scarlett</div>
-				<div class="button thin-bordered">Professor Plum</div>
-				<div class="button thin-bordered">Mrs. Peacock</div>
-				<div class="button thin-bordered">Mr. Green</div>
-				<div class="button thin-bordered">Colonel Mustard</div>
-				<div class="button thin-bordered">Mrs. White</div>
-		</div>
+		<div class="flex-container">
 
-		<div class="bordered light-grey">
-			<span class="corner">Weapons:</span>
-				<div class="button thin-bordered">Candlestick</div>
-				<div class="button thin-bordered">Knife</div>
-				<div class="button thin-bordered">Lead Pipe</div>
-				<div class="button thin-bordered">Revolver</div>
-				<div class="button thin-bordered">Rope</div>
-				<div class="button thin-bordered">Wrench</div>
-		</div>
+			<div class="bordered">
+				<span class="corner">Suspects:</span>
+					<div class="button">Miss Scarlett</div>
+					<div class="button">Professor Plum</div>
+					<div class="button">Mrs. Peacock</div>
+					<div class="button">Mr. Green</div>
+					<div class="button">Colonel Mustard</div>
+					<div class="button">Mrs. White</div>
+			</div>
 
-		<div class="bordered light-grey">
-			<span class="corner">Rooms:</span>
-				<div class="button thin-bordered">Kitchen</div>
-				<div class="button thin-bordered">Ballroom</div>
-				<div class="button thin-bordered">Conservatory</div>
-				<div class="button thin-bordered">Dining Room</div>
-				<div class="button thin-bordered">Billard Room</div>
-				<div class="button thin-bordered">library</div>
-				<div class="button thin-bordered">Lounge</div>
-				<div class="button thin-bordered">Hall</div>
-				<div class="button thin-bordered">Study</div>
-		</div>
+			<div class="bordered">
+				<span class="corner">Weapons:</span>
+					<div class="button">Candlestick</div>
+					<div class="button">Knife</div>
+					<div class="button">Lead Pipe</div>
+					<div class="button">Revolver</div>
+					<div class="button">Rope</div>
+					<div class="button">Wrench</div>
+			</div>
 
-		<div class="bordered" id="clear-button">Clear</div>
+			<div class="bordered">
+				<span class="corner">Rooms:</span>
+					<div class="button">Kitchen</div>
+					<div class="button">Ballroom</div>
+					<div class="button">Conservatory</div>
+					<div class="button">Dining Room</div>
+					<div class="button">Billard Room</div>
+					<div class="button">library</div>
+					<div class="button">Lounge</div>
+					<div class="button">Hall</div>
+					<div class="button">Study</div>
+			</div>
+
+			<div class="suggestions"></div>
+
+			<div class="bordered" id="clear-button">Clear</div>
+		</div>
 	</body>
 </html>
